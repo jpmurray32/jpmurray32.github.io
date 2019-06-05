@@ -1,0 +1,90 @@
+body {
+	background-color: rgb(245, 245, 250);
+	font-family: Cambia, Georgia, serif;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	background-color: rgb(50, 150, 50);
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(80, 80, 80);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1100px) {
+	.head {
+		position: fixed;
+		top: 20px;
+		left: 0;
+		height: 70px;
+		width: 180px;
+		background-color: rgb(50, 150, 50);
+	}
+
+	.head .first {
+		position: absolute;
+		top: 2px;
+		left: 30px;
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.head .break {
+		position: absolute;
+		top: 32px;
+		left: 10px;
+		height: 5px;
+		width: 160px;
+		background-color: white;
+	}
+
+	.head .second {
+		position: absolute;
+		top: 33px;
+		left: 45px;
+		color: white;
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.sidebar {
+		width: 150px;
+		position: fixed;
+		z-index: 1;
+		top: 150px;
+		left: calc(100% - 150px);
+		background: rgba(50, 150, 50, .5);
+		overflow-x: hidden;
+	}
+
+	.sidebar a {
+		padding: 20px 10px;
+		text-decoration: none;
+		font-size: 20px;
+		text-align: center;
+		color: white;
+		display: block;
+		background: rgba(50, 150, 50, .7);
+	}
+
+	.sidebar a:hover {
+		background-color: rgba(100, 180, 100, .8);
+		color: black;
+	}
+}
