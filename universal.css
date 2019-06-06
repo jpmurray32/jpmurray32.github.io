@@ -151,3 +151,13 @@ body {
 		color: black;
 	}
 }
+
+@media only screen and (max-height: 800px) {
+	.sidebar {
+		top: 8%;
+	}
+
+	.sidebar a {
+		padding: 20px 10px;
+	}
+}
