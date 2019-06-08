@@ -8,19 +8,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-	/*.col-1 {width: 8.33%}
-	.col-2 {width: 16.66&}
-	.col-3 {width: 25%}
-	.col-4 {width: 33.33%}
-	.col-5 {width: 41.66%}
-	.col-6 {width: 50%}
-	.col-7 {width: 58.33%}
-	.col-8 {width: 66.66%}
-	.col-9 {width: 75%}
-	.col-10 {width: 83.33%}
-	.col-11 {width: 91.66%}
-	.col-12 {width: 100%}*/
-
 	.top {
 		position: absolute;
 		top: 0px;
@@ -122,39 +109,91 @@
 	.contitle {
 		width: 100%;
 		text-align: center;
-		font-size: 35px;
+		font-size: 25px;
+		text-decoration: underline;
+		padding-bottom: 10px;
 	}
 
 	.context {
-		font-size: 20px;
+		font-size: 2vw;
 		line-height: 1.5;
-		padding: 20px 20px;
-		background-color: rgb(200, 200, 240);
+		padding: 10px 10px;
 		border-radius: 10px;
+		background-color: rgba(50, 150, 50, 0.8);
 	}
 
 	.conone {
 		position: absolute;
 		top: 0;
-		left: 3%;
-		width: 28%;
-		min-width: 200px;
+		left: 2%;
+		width: 31%;
 	}
 
 	.contwo {
 		position: absolute;
 		top: 0;
-		left: 34%;
-		width: 28%;
-		min-width: 200px;
+		left: 35%;
+		width: 31%;
 	}
 
 	.conthree {
 		position: absolute;
 		top: 0;
-		left: 65%;
-		width: 28%;
-		min-width: 200px;
+		left: 68%;
+		width: 31%;
+	}
+
+	.programs {
+		position: absolute;
+		top: calc(100% + 690px);
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+	.programimage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+	.programtitle {
+		position: absolute;
+		top: 150px;
+		left: 0;
+		width: calc(100% - 150px);
+		text-align: center;
+		color: white;
+		font-weight: 900;
+		font-size: 50px;
+		font-family: Rubik, Arial, sans-serif;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: black;
+	}
+
+	.programlink {
+		position: absolute;
+		top: 400px;
+		left: calc(50% - 215px);
+		width: 300px;
+		background-color: rgb(50, 150, 50);
+		color: white;
+		border-radius: 10px;
+		text-decoration: none;
+		border: 2px solid black;
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+		padding: 12px;
+	}
+
+	.programlink:hover {
+		background-color: rgb(100, 180, 100);
+	}
+	.programlink:active {
+		box-shadow: none;
 	}
 }
 
@@ -274,38 +313,92 @@
 		width: 100%;
 		text-align: center;
 		font-size: 35px;
+		text-decoration: underline;
+		padding-bottom: 10px;
 	}
 
 	.context {
-		font-size: 20px;
+		font-size: 1.8vw;
 		line-height: 1.5;
-		padding: 20px 20px;
-		background-color: rgb(200, 200, 240);
-		border-radius: 10px;
+		padding: 10px 10px;
+		background-color: rgba(50, 150, 50, 0.8);
 	}
 
 	.conone {
 		position: absolute;
 		top: 0;
-		left: 3%;
-		width: 30%;
+		left: 2%;
+		width: 31%;
 		min-width: 290px;
 	}
 
 	.contwo {
 		position: absolute;
 		top: 0;
-		left: 36%;
-		width: 30%;
+		left: 35%;
+		width: 31%;
 		min-width: 290px;
 	}
 
 	.conthree {
 		position: absolute;
 		top: 0;
-		left: 69%;
-		width: 30%;
+		left: 68%;
+		width: 31%;
 		min-width: 290px;
+	}
+
+	.programs {
+		position: absolute;
+		top: calc(100% + 710px);
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+	.programimage {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+	.programtitle {
+		position: absolute;
+		top: 150px;
+		left: 0;
+		width: calc(100% - 150px);
+		text-align: center;
+		color: white;
+		font-weight: 900;
+		font-size: 65px;
+		font-family: Rubik, Arial, sans-serif;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: black;
+	}
+
+	.programlink {
+		position: absolute;
+		top: 500px;
+		left: calc(50% - 215px);
+		width: 300px;
+		background-color: rgb(50, 150, 50);
+		color: white;
+		border-radius: 10px;
+		text-decoration: none;
+		border: 2px solid black;
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+		padding: 12px;
+	}
+
+	.programlink:hover {
+		background-color: rgb(100, 180, 100);
+	}
+	.programlink:active {
+		box-shadow: none;
 	}
 }
 
@@ -315,6 +408,10 @@
 	}
 
 	.context {
-		font-size: 25px;
+		font-size: 1.5vw;
+	}
+
+	.programtitle {
+		font-size: 75px;
 	}
 }
