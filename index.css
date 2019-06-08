@@ -28,7 +28,7 @@
 		position: absolute;
 		top: 200px;
 		left: 0;
-		width: calc(100% - 150px);
+		width: calc(100% - 120px);
 		text-align: center;
 		color: white;
 		font-weight: 900;
@@ -52,6 +52,7 @@
 		font-weight: bold;
 		font-size: 25px;
 		padding: 10px;
+		cursor: pointer;
 	}
 
 	.toplink:hover {
@@ -187,6 +188,7 @@
 		font-weight: bold;
 		font-size: 25px;
 		padding: 12px;
+		cursor: pointer;
 	}
 
 	.programlink:hover {
@@ -255,6 +257,7 @@
 		font-weight: bold;
 		font-size: 25px;
 		padding: 10px;
+		cursor: pointer;
 	}
 
 	.toplink:hover {
@@ -392,6 +395,7 @@
 		font-weight: bold;
 		font-size: 25px;
 		padding: 12px;
+		cursor: pointer;
 	}
 
 	.programlink:hover {
