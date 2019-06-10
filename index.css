@@ -67,7 +67,7 @@
 		top: calc(100% + 20px);
 		left: 0;
 		height: 300px;
-		width: 82%;
+		width: calc(100% - 120px);
 	}
 
 	.title .first {
@@ -272,7 +272,7 @@
 		top: calc(100% + 20px);
 		left: 0;
 		height: 300px;
-		width: 100%;
+		width: calc(100% - 150px);
 	}
 
 	.title .first {
