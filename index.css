@@ -7,7 +7,7 @@
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1099px) {
 	.top {
 		position: absolute;
 		top: 0px;
@@ -32,7 +32,7 @@
 		text-align: center;
 		color: white;
 		font-weight: 900;
-		font-size: 65px;
+		font-size: 6.9vw;
 		font-family: Rubik, Arial, sans-serif;
 		-webkit-text-stroke-width: 2px;
 		-webkit-text-stroke-color: black;
@@ -70,34 +70,12 @@
 		width: calc(100% - 120px);
 	}
 
-	.title .first {
+	.title .image {
 		position: absolute;
-		top: 30px;
-		left:0;
-		width: 100%;
-		text-align: center;
-		color: green;
-		font-size: 60px;
-		font-weight: bold;
-	}
-
-	.title .break {
-		position: absolute;
-		top: 100px;
-		left: 30%;
-		height: 4px;
-		width: 40%;
-		background-color: green;
-	}
-
-	.title .second {
-		position: absolute;
-		top: 110px;
-		left: 0;
-		width: 100%;
-		text-align: center;
-		color: green;
-		font-size: 30px;
+		top: 0;
+		left: 10%;
+		width: 80%;
+		height: auto;
 	}
 
 	.description {
@@ -168,7 +146,7 @@
 		text-align: center;
 		color: white;
 		font-weight: 900;
-		font-size: 50px;
+		font-size: 6.9vw;
 		font-family: Rubik, Arial, sans-serif;
 		-webkit-text-stroke-width: 2px;
 		-webkit-text-stroke-color: black;
@@ -272,37 +250,15 @@
 		top: calc(100% + 20px);
 		left: 0;
 		height: 300px;
-		width: calc(100% - 150px);
+		width: calc(100% - 120px);
 	}
 
-	.title .first {
+	.title .image {
 		position: absolute;
-		top: 30px;
-		left:0;
-		width: 100%;
-		text-align: center;
-		color: green;
-		font-size: 60px;
-		font-weight: bold;
-	}
-
-	.title .break {
-		position: absolute;
-		top: 100px;
-		left: 30%;
-		height: 4px;
-		width: 40%;
-		background-color: green;
-	}
-
-	.title .second {
-		position: absolute;
-		top: 110px;
-		left: 0;
-		width: 100%;
-		text-align: center;
-		color: green;
-		font-size: 30px;
+		top: 0;
+		left: 20%;
+		width: 60%;
+		height: auto;
 	}
 
 	.description {
@@ -325,6 +281,7 @@
 		line-height: 1.5;
 		padding: 10px 10px;
 		background-color: rgba(50, 150, 50, 0.8);
+		border-radius: 10px;
 	}
 
 	.conone {

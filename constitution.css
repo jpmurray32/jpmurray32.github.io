@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1099px) {
 	.top {
 		position: absolute;
 		top: 0px;
@@ -6,9 +6,10 @@
 		height: 50%;
 		width: 100%;
 		background-image: url("constitution2.png");
+		background-size: 100%;
 	}
 
-	.top .title {
+	.top .words {
 		position: absolute;
 		top: calc(50% - 40px);
 		left: 0;
@@ -26,22 +27,49 @@
 		position: absolute;
 		top: calc(50% + 30px);
 		left: 10%;
-		width: calc(80% - 150px);
-		padding-bottom: 20px;
+		width: calc(80% - 120px);
+		padding-bottom: 40px;
 	}
 
-	.history .title {
+	.title {
+		padding-top: 20px;
 		text-align: center;
 		text-decoration: underline;
-		font-size: 40px;
+		font-size: 4.8vw;
+		font-weight: 700;
+		color: rgb(50, 150, 50);
 	}
 
-	.history .text {
+	.text {
 		padding-top: 10px;
 		text-align: left;
-		font-size: 22px;
+		font-size: 1.9vw;
 		line-height: 200%;
+	}
+
+	.indent {
 		text-indent: 2em;
+	}
+
+	.arttitle {
+		padding-top: 20px;
+		text-align: center;
+		font-size: 50px;
+		font-weight: bold;
+	}
+
+	.sect {
+		padding-top: 10px;
+		text-align: left;
+		font-size: 30px;
+		font-weight: 500;
+		text-decoration: underline;
+		color: rgb(50, 120, 50);
+	}
+
+	.gap {
+		font-size: 35px;
+		padding-top: 20px;
 	}
 }
 

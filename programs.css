@@ -1,17 +1,75 @@
 @media only screen and (min-width: 768px) {
-	.title {
+	.top {
 		position: absolute;
-		top: 0;
+		top: 0px;
 		left: 0;
+		height: 50%;
 		width: 100%;
+		background-image: url("sunrise.png");
+		background-size: 100%;
 	}
 
-	.title .top {
+	.top .title {
 		position: absolute;
-		top: 50px;
-		left: 0px;
+		top: calc(50% - 40px);
+		left: 0;
 		width: calc(100% - 120px);
+		text-align: center;
+		font-size: 80px;
+		font-weight: 900;
 		font-family: Rubik, Arial, sans-serif;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: black;
+		color: white;
+	}
+
+	.body {
+		position: absolute;
+		top: calc(50% + 30px);
+		left: 10%;
+		width: calc(80% - 120px);
+	}
+
+	.national .title {
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		text-decoration: underline;
+		color: rgb(50, 150, 50);
+	}
+
+	.image {
+		width: 100%;
+		height: auto;
+	}
+
+	.name {
+		font-size: 30px;
+		text-align: center;
+		color: rgb(50, 150, 50);
+		text-decoration: underline;
+	}
+
+	.text {
+		font-size: 1.8vw;
+		text-align: left;
+		padding-top: 5px;
+		line-height: 150%;
+		color: rgb(50, 130, 50);
+	}
+
+	.one {
+		position: absolute;
+		top: 80px;
+		left: 0;
+		width: 40%;
+	}
+
+	.two {
+		position: absolute;
+		top: 80px;
+		left: 50%;
+		width: 40%;
 	}
 }
 
@@ -43,19 +101,78 @@
 	.body {
 		position: absolute;
 		top: calc(50% + 30px);
-		left: 10%;
-		width: calc(80% - 150px);
+		left: 0%;
+		width: calc(100% - 150px);
 	}
 
 	.national .title {
 		text-align: center;
 		font-size: 40px;
+		font-weight: bold;
 		text-decoration: underline;
 		color: rgb(50, 150, 50);
 	}
 
-	.program {
+	.image {
+		width: 100%;
+		height: auto;
+	}
+
+	.name {
+		font-size: 30px;
+		text-align: center;
+		color: rgb(50, 150, 50);
+		text-decoration: underline;
+	}
+
+	.text {
+		font-size: 1.5vw;
+		text-align: left;
+		padding-top: 5px;
+		line-height: 150%;
+		color: rgb(50, 130, 50);
+	}
+
+	.one {
 		position: absolute;
-		
+		top: 80px;
+		left: 10%;
+		width: 35%;
+	}
+
+	.two {
+		position: absolute;
+		top: 80px;
+		left: 55%;
+		width: 35%;
+	}
+
+	.three {
+		position: absolute;
+		top: 450px;
+		left: 10%;
+		width: 35%;
+	}
+
+	.four {
+		position: absolute;
+		top: 450px;
+		left: 55%;
+		width: 35%;
+	}
+
+	.state {
+		position: absolute;
+		top: 950px;
+		left: 0;
+		width: 100%;
+	}
+
+	.state .title {
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		text-decoration: underline;
+		color: rgb(50, 150, 50);
 	}
 }
