@@ -51,7 +51,7 @@
 	}
 
 	.text {
-		font-size: 1.7vw;
+		font-size: 1.9vw;
 		text-align: left;
 		padding-top: 5px;
 		line-height: 150%;
@@ -74,21 +74,21 @@
 
 	.three {
 		position: absolute;
-		top: 350px;
+		top: 450px;
 		left: 10%;
 		width: 35%;
 	}
 
 	.ilthree {
 		position: absolute;
-		top: 450px;
+		top: 550px;
 		left: 10%;
 		width: 35%;
 	}
 
 	.four {
 		position: absolute;
-		top: 350px;
+		top: 450px;
 		left: 55%;
 		width: 35%;
 	}

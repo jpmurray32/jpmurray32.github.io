@@ -1,22 +1,5 @@
-@media only screen and (min-width: 768px) {
-	.title {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-	}
-
-	.title .top {
-		position: absolute;
-		top: 50px;
-		left: 0px;
-		width: calc(100% - 120px);
-		font-family: Rubik, Arial, sans-serif;
-	}
-}
-
-@media only screen and (min-width: 1100px) {
-	.title {
+@media only screen and (max-width: 1099px) {
+	.top {
 		position: absolute;
 		top: 0px;
 		left: 0;
@@ -26,7 +9,57 @@
 		background-size: 100%;
 	}
 
-	.title .top {
+	.top .title {
+		position: absolute;
+		top: calc(50% - 40px);
+		left: 0;
+		width: calc(100% - 120px);
+		text-align: center;
+		font-size: 80px;
+		font-weight: 900;
+		font-family: Rubik, Arial, sans-serif;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: black;
+		color: white;
+	}
+
+	.body {
+		position: absolute;
+		top: calc(50% + 30px);
+		left: 10%;
+		width: calc(80% - 150px);
+		padding-bottom: 40px;
+	}
+
+	.body .title {
+		padding-top: 20px;
+		text-align: center;
+		text-decoration: underline;
+		font-size: 50px;
+		font-weight: 700;
+		color: rgb(50, 150, 50);
+	}
+
+	.text {
+		padding-top: 10px;
+		text-align: left;
+		font-size: 15px;
+		line-height: 200%;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	.top {
+		position: absolute;
+		top: 0px;
+		left: 0;
+		height: 50%;
+		width: 100%;
+		background-image: url("flower.png");
+		background-size: 100%;
+	}
+
+	.top .title {
 		position: absolute;
 		top: calc(50% - 40px);
 		left: 0;
@@ -38,5 +71,29 @@
 		-webkit-text-stroke-width: 2px;
 		-webkit-text-stroke-color: black;
 		color: white;
+	}
+
+	.body {
+		position: absolute;
+		top: calc(50% + 30px);
+		left: 10%;
+		width: calc(80% - 150px);
+		padding-bottom: 40px;
+	}
+
+	.body .title {
+		padding-top: 20px;
+		text-align: center;
+		text-decoration: underline;
+		font-size: 50px;
+		font-weight: 700;
+		color: rgb(50, 150, 50);
+	}
+
+	.text {
+		padding-top: 10px;
+		text-align: left;
+		font-size: 18px;
+		line-height: 200%;
 	}
 }

@@ -1,5 +1,51 @@
 @media only screen and (max-width: 1099px) {
+	.top {
+		position: absolute;
+		top: 0px;
+		left: 0;
+		height: 50%;
+		width: 100%;
+		background-image: url("justice.png");
+		background-size: 100%;
+	}
 
+	.top .name {
+		position: absolute;
+		top: calc(50% - 40px);
+		left: 0;
+		width: calc(100% - 120px);
+		text-align: center;
+		font-size: 80px;
+		font-weight: 900;
+		font-family: Rubik, Arial, sans-serif;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: black;
+		color: white;
+	}
+
+	.body {
+		position: absolute;
+		top: calc(50% + 10px);
+		left: 10%;
+		width: calc(80% - 120px);
+		padding-bottom: 50px;
+	}
+
+	.title {
+		padding-top: 40px;
+		text-align: center;
+		text-decoration: underline;
+		font-size: 50px;
+		font-weight: 700;
+		color: rgb(50, 150, 50);
+	}
+
+	.text {
+		padding-top: 10px;
+		text-align: left;
+		font-size: 22px;
+		line-height: 200%;
+	}
 }
 
 @media only screen and (min-width: 1100px) {

@@ -1,12 +1,3 @@
-@media only screen and (min-width: 600px) {
-	.head {
-		position: fixed;
-		top: 90%;
-		left: 0;
-		height: 70px 
-	}
-}
-
 @media only screen and (max-width: 1099px) {
 	.top {
 		position: absolute;
@@ -14,6 +5,19 @@
 		left: 0px;
 		height: 100%;
 		width: 100%;
+	}
+
+	.credit {
+		position: absolute;
+		top: 20px;
+		left: calc(50% - 215px);
+		width: 300px;
+		padding: 10px 10px;
+		font-size: 15px;
+		background-color: rgba(50, 150, 50, 0.9);
+		border: 1px solid black;
+		border-radius: 5px;
+		color: white;
 	}
 
 	.topimage {
@@ -197,6 +201,19 @@
 		left: 0px;
 		height: 100%;
 		width: 100%;
+	}
+	
+	.credit {
+		position: absolute;
+		top: 20px;
+		left: calc(50% - 215px);
+		width: 300px;
+		padding: 10px 10px;
+		font-size: 15px;
+		background-color: rgba(50, 150, 50, 0.9);
+		border: 1px solid black;
+		border-radius: 5px;
+		color: white;
 	}
 
 	.topimage {
