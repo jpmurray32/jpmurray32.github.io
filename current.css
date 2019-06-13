@@ -1,12 +1,15 @@
-@media only screen and (max-width: 1099px) {
-	.title {
+@media only screen and (min-width: 768px) {
+	.top {
 		position: absolute;
-		top: 0;
+		top: 0px;
 		left: 0;
+		height: 50%;
 		width: 100%;
+		background-image: url("protest.png");
+		background-size: 100%;
 	}
 
-	.title .top {
+	.top .title {
 		position: absolute;
 		top: 50px;
 		left: 0px;
@@ -22,11 +25,11 @@
 		left: 0;
 		height: 50%;
 		width: 100%;
-		background-image: url("gavel.png");
+		background-image: url("protest.png");
 		background-size: 100%;
 	}
 
-	.top .name {
+	.top .title {
 		position: absolute;
 		top: calc(50% - 40px);
 		left: 0;
@@ -48,7 +51,7 @@
 		padding-bottom: 40px;
 	}
 
-	.title {
+	.body .title {
 		padding-top: 20px;
 		text-align: center;
 		text-decoration: underline;

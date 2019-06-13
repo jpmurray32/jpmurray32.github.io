@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1099px) {
 	.top {
 		position: absolute;
 		top: 0px;
@@ -26,8 +26,8 @@
 	.body {
 		position: absolute;
 		top: calc(50% + 30px);
-		left: 10%;
-		width: calc(80% - 120px);
+		left: 0%;
+		width: calc(100% - 120px);
 	}
 
 	.national .title {
@@ -51,7 +51,7 @@
 	}
 
 	.text {
-		font-size: 1.8vw;
+		font-size: 1.7vw;
 		text-align: left;
 		padding-top: 5px;
 		line-height: 150%;
@@ -61,15 +61,51 @@
 	.one {
 		position: absolute;
 		top: 80px;
-		left: 0;
-		width: 40%;
+		left: 10%;
+		width: 35%;
 	}
 
 	.two {
 		position: absolute;
 		top: 80px;
-		left: 50%;
-		width: 40%;
+		left: 55%;
+		width: 35%;
+	}
+
+	.three {
+		position: absolute;
+		top: 350px;
+		left: 10%;
+		width: 35%;
+	}
+
+	.ilthree {
+		position: absolute;
+		top: 450px;
+		left: 10%;
+		width: 35%;
+	}
+
+	.four {
+		position: absolute;
+		top: 350px;
+		left: 55%;
+		width: 35%;
+	}
+
+	.state {
+		position: absolute;
+		top: 950px;
+		left: 0;
+		width: 100%;
+	}
+
+	.state .title {
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		text-decoration: underline;
+		color: rgb(50, 150, 50);
 	}
 }
 
@@ -150,6 +186,13 @@
 	.three {
 		position: absolute;
 		top: 450px;
+		left: 10%;
+		width: 35%;
+	}
+
+	.ilthree {
+		position: absolute;
+		top: 550px;
 		left: 10%;
 		width: 35%;
 	}

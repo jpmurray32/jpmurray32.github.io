@@ -33,7 +33,7 @@ body {
 		left: 0;
 		height: 70px;
 		width: 180px;
-		background-color: rgb(50, 150, 50);
+		background-color: rgba(50, 150, 50, 0.9);
 	}
 
 	.head .first {
@@ -96,12 +96,12 @@ body {
 		left: 0;
 		height: 70px;
 		width: 180px;
-		background-color: rgb(50, 150, 50);
+		background-color: rgba(50, 150, 50, 0.9);
 	}
 
 	.head .first {
 		position: absolute;
-		top: 2px;
+		top: -2px;
 		left: 30px;
 		color: white;
 		font-size: 30px;
